@@ -39,4 +39,7 @@ Then, open VS Code and go to the terminal. You basically need to uninstall you c
 
 `$ pip install torch==2.5.1+cu124 torchvision==0.20.1+cu124 torchaudio==2.5.1 --extra-index-url https://download.pytorch.org/whl/cu124`
 
+> [!WARNING]
+> [check](https://pytorch.org/get-started/previous-versions/) this last command. It should be different depending on the version you're going for. The one above is specifically for Pytorch v2.5.1.
+
 Then check version again just to make sure, and it should be done :+1:

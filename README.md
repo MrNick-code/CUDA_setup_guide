@@ -18,7 +18,7 @@ to check the version of you CUDA and,
 `$ pip show torch`
 
 to check the torch version. 
-So, the latest version I could find that we can run pytorch is 2.5.1. There is 2.6 but it didnt worked for me. According to [this website](https://pytorch.org/get-started/previous-versions/) , pytorch version2.5.1 has the following CUDA versions: 11.8, 12.1 and 12.4. I decided to use 12.4 but I believe any could work.
+So, the latest version I could find that we can run pytorch is 2.5.1. There is 2.6 but it didnt worked for me. According to [Pytorch website](https://pytorch.org/get-started/previous-versions/) , pytorch version2.5.1 has the following CUDA versions: 11.8, 12.1 and 12.4. I decided to use 12.4 but I believe any could work.
 
 ---
 

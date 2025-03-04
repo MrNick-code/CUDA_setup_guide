@@ -1,4 +1,4 @@
-# How to set up CUDA for VS Code in Windows environment properly (March 2025)
+# How to set up CUDA for Pytorch in Windows environment properly (March 2025)
 
 I know that a lot of people had/has problem to set up CUDA for application in VS Code and I found out after a bit research and sutff that this isnt that dificult, you just have to be patient. I gathered the info needed to set this up in this repo. Hope you can have this running asap!
 

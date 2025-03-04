@@ -2,11 +2,13 @@
 
 I know that a lot of people had/has problem to set up CUDA for application in VS Code and I found out after a bit research and sutff that this isnt that dificult, you just have to be patient. I gathered the info needed to set this up in this repo. Hope you can have this running asap!
 
-
+![cuda working](images/d3fa8f8d-8cc7-4bbf-93b7-7c9302fee546.jpg)
 
 > [!NOTE]
 > You must have an NVIDIA GPU
+> 
 ---
+
 So basically the problem is related with versions. To check, you can open the cmd prompt and type, 
 
 `$ nvcc --version`
@@ -17,7 +19,9 @@ to check the version of you CUDA and,
 
 to check the torch version. 
 So, the latest version I could find that we can run pytorch is 2.5.1. There is 2.6 but it didnt worked for me. According to [this website](https://pytorch.org/get-started/previous-versions/) , pytorch version2.5.1 has the following CUDA versions: 11.8, 12.1 and 12.4. I decided to use 12.4 but I believe any could work.
+
 ---
+
 First, remove the CUDA version you have now by going to Control Panel → Programs → Programs and Features, right click and unnistall NVIDIA CUDA Toolkit 12.8 (or whatever version you have).
 
 To get any CUDA version running, you want to install from [the oficial website](https://developer.nvidia.com/cuda-toolkit-archive) (I did the 12.4.0).
@@ -26,7 +30,9 @@ To get any CUDA version running, you want to install from [the oficial website](
 > I recommend in installation using custom installation and removing the drivers update check box if your CUDA version was newer then the one you are installing right now.
 
 Once it's done, restart your computer.
+
 ---
+
 Then, open VS Code and go to the terminal. You basically need to uninstall you currrently torch version and update the newest one:
 
 `$ pip uninstall torch torchvision torchaudio`

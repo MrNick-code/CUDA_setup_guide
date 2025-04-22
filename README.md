@@ -13,7 +13,7 @@ So basically the problem is related with versions. To check, you can open the cm
 
 `$ nvcc --version`
 
-to check the version of you CUDA and,
+to check the version of your CUDA and,
 
 `$ pip show torch`
 
